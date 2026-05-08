@@ -1,1 +1,54 @@
-BACKEND FOLDER IS CREATED!
+Full Stack Development Introduction
+
+What is Full Stack Development?
+
+Full Stack Development refers to the development of both the frontend and backend parts of a web application.
+
+Frontend = the user interface users interact with
+Backend = the server-side logic and processing
+Database = stores application data
+A full stack developer works with all these layers.
+
+Frontend vs Backend Responsibilities
+
+Frontend The frontend is responsible for:
+
+User Interface (UI)
+Design and layout
+User interaction
+Displaying data to users
+Examples:
+
+HTML
+CSS
+JavaScript
+Backend The backend is responsible for:
+
+Server logic
+Handling requests
+Managing data
+Connecting to the database
+Examples:
+
+Node.js
+Express.js
+Web Application Architecture A web application follows a client-server architecture. Flow:
+
+Client/Browser sends a request
+Frontend displays the interface
+Backend processes the request
+Database stores/retrieves data
+Backend sends response back to frontend
+Architecture Diagram: Client (Browser) ↓ Frontend (UI) ↓ Backend (Server) ↓ Database (MongoDB)
+
+Project Folder Structure text fullstack-intro/ │ ├── frontend/ ├── backend/
+
+MERN Stack Overview
+
+MERN stands for:
+
+MongoDB = Database
+Express.js = Backend framework
+React = Frontend library
+Node.js = Runtime environment
+MongoDB stores application data and works with the backend server.
