@@ -1,74 +1,19 @@
-Full Stack Development Introduction
+WEB APPLICATION ARCHITECTURE
 
-What is Full Stack Development?
+This project follows a client-server model:
 
-Full Stack Development refers to the development of both the frontend and backend parts of a web application.
-- Frontend = the user interface users interact with
-- Backend = the server-side logic and processing
-- Database = stores application data
+1. Client (Browser)
+   - User opens the frontend page
 
-A full stack developer works with all these layers.
+2. Frontend
+   - Sends request to backend API
 
+3. Backend Server
+   - Receives request
+   - Processes logic
+   - Sends response
 
-Frontend vs Backend Responsibilities
+4. Data Flow
+   Frontend → Backend → Response → Frontend Display
 
-Frontend
-The frontend is responsible for:
-- User Interface (UI)
-- Design and layout
-- User interaction
-- Displaying data to users
-
-Examples:
-- HTML
-- CSS
-- JavaScript
-
-Backend
-The backend is responsible for:
-- Server logic
-- Handling requests
-- Managing data
-- Connecting to the database
-
-Examples:
-- Node.js
-- Express.js
-
-
-Web Application Architecture
-A web application follows a client-server architecture.
-Flow:
-1. Client/Browser sends a request
-2. Frontend displays the interface
-3. Backend processes the request
-4. Database stores/retrieves data
-5. Backend sends response back to frontend
-
-Architecture Diagram:
-Client (Browser)
-↓
-Frontend (UI)
-↓
-Backend (Server)
-↓
-Database (MongoDB)
-
-
-Project Folder Structure
-text
-fullstack-intro/
-│
-├── frontend/
-├── backend/
-
-
-MERN Stack Overview
-
-MERN stands for:
-- MongoDB = Database
-- Express.js = Backend framework
-- React = Frontend library
-- Node.js = Runtime environment
-
-MongoDB stores application data and works with the backend server.
+This demonstrates how full stack applications communicate between layers.
