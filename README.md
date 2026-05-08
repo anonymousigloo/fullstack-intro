@@ -1,19 +1,23 @@
-WEB APPLICATION ARCHITECTURE
+Evidence of Full Stack Development Understanding
 
-This project follows a client-server model:
+Full Stack Development
 
-1. Client (Browser)
-   - User opens the frontend page
+Full Stack Development means building both:
+- Frontend (client-side application)
+- Backend (server-side application)
 
-2. Frontend
-   - Sends request to backend API
+This project demonstrates Full Stack Development because:
+- The frontend sends requests to the backend
+- The backend processes requests and sends responses
+- Both layers work together through API communication
 
-3. Backend Server
-   - Receives request
-   - Processes logic
-   - Sends response
+Request Flow (Client → Server)
 
-4. Data Flow
-   Frontend → Backend → Response → Frontend Display
+1. User opens frontend in browser
+2. User clicks a button
+3. Frontend sends HTTP request to backend API
+4. Backend receives request using Express server
+5. Backend processes request and returns JSON response
+6. Frontend displays the response to the user
 
-This demonstrates how full stack applications communicate between layers.
+This confirms understanding of client-server communication in web architecture.
